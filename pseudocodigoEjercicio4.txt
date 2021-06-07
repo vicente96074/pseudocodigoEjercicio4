@@ -1,0 +1,16 @@
+Inicio pseudocodigoEjercicio4
+	Arreglo personas[20]
+	Variable i
+	Variable mayor
+	Variable menor
+	
+	Desde i=0; hasta i<20; aumentar i = i+1
+		Si (persona[i] > persona[i+1] ) hacer
+			mayor = persona[i]
+		FinSi
+		Sino (persona[i] < persona[i+1]) hacer
+			menor = persona[i]
+		FinSino
+		
+	FinDesde
+Fin
